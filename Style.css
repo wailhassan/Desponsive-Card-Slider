@@ -18,9 +18,15 @@ body {
   background: url("img/bg.jpg") no-repeat center;
 }
 
+.slider-wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 70px 55px;
+}
+
 .card-list .card-item {
   color: #fff;
-  width: 400px;
+  user-select: none;
   padding: 35px;
   display: flex;
   flex-direction: column;
@@ -64,4 +70,10 @@ body {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid #fff;
   color: #fff;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 15px;
+  width: 15px;
 }
